@@ -1,0 +1,412 @@
+@charset "utf-8";
+
+body{
+    background: #fff;
+    margin: 0;
+}
+
+header{
+    background: #38817B;
+    color: #fff;
+    padding: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+
+header h1{
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+
+header img{
+    position: relative;
+    left: 50px;
+    filter: opacity(70%);
+}
+
+
+.logo{
+    width: 400px;
+    position: relative;
+    top: -60px; 
+    margin-bottom: -70px;
+}
+
+.local{
+    position: relative;
+    top: 9px;
+    font-family: serif;
+    font-size: medium;
+}
+
+.btnplace{
+    position: relative;
+    left: -810px;
+    top: 0px;
+    animation: rotatebtn 1s ease-out 0s both;
+    animation: rotatebtn 1s ease-out 0s both;
+}
+
+@keyframes rotatebtn {
+    0% {
+        -webkit-transform: translateY(-800px) rotate(-540deg);
+        transform: translateY(-800px) rotate(-540deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0) rotate(0deg);
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+}
+
+.btn{
+    width: 80px;
+    height: 80px;
+    background: #214d4900;
+    border: none;
+    border-radius: 500px;
+}
+
+.btn:hover{
+    background: #214d4968;
+}
+
+.mve{
+    position: relative;
+    left: 140px;
+}
+
+.spacing{
+    position: relative;
+    left: 100px ;
+    background: #38817B;
+}
+
+.offcanvas-body{
+    background: #38817B;
+    color: #38817B;
+    overflow-x: hidden;
+}
+
+.clrchange{
+    color: #fff;
+    text-decoration: none;
+}
+
+.spacein{
+    position: relative;
+    display: flex;
+    margin-bottom: 3em;
+    margin-top: 6em;
+}
+
+
+@media all and (max-width: 760px) {
+    
+    body{
+        overflow-x: hidden;
+    }
+
+    .logo{
+        width: 250px;
+        height: 150px;
+        position: relative;
+        left: 35px;
+    }
+
+    .btn{
+        width: 60px;
+        height: 60px;
+    }
+
+    .btnplace{
+        position: relative;
+        left: -270px;
+        top: -20px;
+    }
+
+    .hamburguerimg{
+        width: 30px;
+        height: 30px;
+    }
+
+    .card{
+        position: relative;
+        left: -70px;
+        margin: 0em;
+        gap: 0em;
+    }
+    footer{
+        justify-content: center;
+        display: flex;
+    }
+
+    .inlinecards{
+        flex-direction: column;
+        position: relative;
+        left: -1040px;
+    }
+
+    .imglogoo{
+        visibility: none;
+    }
+
+    .btninicio{
+        position: relative;
+        left: -1520px;
+        margin-top: 18em;
+    }
+
+    .img1 .img2{
+        visibility: hidden;
+    }
+
+    .imgft{
+        visibility: hidden;
+    }
+
+
+
+}
+
+.bk{
+    background: #4eb3aa;
+}
+
+.card{
+    background: #a6c7c4;
+    margin: 7em;
+    border: none;
+    box-shadow: 10px 10px 10px #00000070;
+    color: #214d49;
+    margin-right: 50em;
+    height: 570px;
+    width: 300px;
+    font-size: medium;
+}
+
+.card .img1{
+    width: 700px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    top: -485px;
+    left: 400px;
+    filter: opacity(70%);
+}
+
+.card .imgft{
+    border-radius: 20px;
+    position: relative;
+    top: -415px;
+    left: 550px;
+    width: 400px;
+}
+
+
+
+.card .img2{
+    width: 700px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    top: -70px;
+    left: 400px;
+    filter: opacity(70%);
+}
+
+.card h2{
+    color: #214d49;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0.5em;
+}
+
+.card p{
+    text-justify: left;
+    margin: 1em
+}
+
+a{
+    font-size: 1.2em;
+}
+
+.txtt{
+    font-size: -1em;
+}
+
+footer{
+    background: #38817B;
+    padding: 2em;
+}
+
+.personimg img{
+    border-radius: 1000px;
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 15px;
+    left: 5px;
+}
+
+.cardbk1{
+    background: #a6c7c4;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    height: 200px;
+    border-radius: 40px;
+    position: relative;
+    left: 1150px;
+}
+
+.cardbk1 a img{
+    position: relative;
+    top: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.cardbk1 h3{
+    position: relative;
+    top: 20px;
+    font-family: serif;
+    
+}
+/* ----------------------------------------------------- */
+.cardbk2{
+    background: #a6c7c4;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    height: 200px;
+    border-radius: 40px;
+    position: relative;
+    left: 1150px;
+}
+
+.cardbk2 a img{
+    position: relative;
+    top: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.cardbk2 h3{
+    position: relative;
+    top: 20px;
+    font-family: serif;
+    
+}
+/* --------------------------------------- */
+.cardbk3{
+    background: #a6c7c4;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    height: 200px;
+    border-radius: 40px;
+    position: relative;
+    left: 1150px;
+}
+
+.cardbk3 a img{
+    position: relative;
+    top: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.cardbk3 h3{
+    position: relative;
+    top: 20px;
+    font-family: serif;
+    
+}
+/* --------------------------------- */
+.cardbk4{
+    background: #a6c7c4;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    height: 200px;
+    border-radius: 40px;
+    position: relative;
+    left: 1150px;
+}
+
+.cardbk4 a img{
+    position: relative;
+    top: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.cardbk4 h3{
+    position: relative;
+    top: 20px;
+    font-family: serif;
+    
+}
+/* -----------------------------*/
+
+.inlinecards{
+    display: flex;
+    position: relative;
+    right: 630px;
+    gap: 1em;
+}
+
+.bktext{
+    background: #a6c7c469;
+    position: relative;
+    width: 200px;
+    text-align: center;
+    left: 840px;
+    border-radius: 10px;
+}
+
+/* ----------------------------------------------- */
+
+
+
+.btninicio a{
+    background-color: #214d49;
+    padding: 0.5em;
+    border-radius: 15px 5px;
+    text-decoration: none;
+    color: #9ad7d2;
+    box-shadow: 5px 5px 5px #ffffff80;
+    position: relative;
+    bottom: 255px;
+    left: 1300px;
+}
+
+.imglogoo img{
+    position: relative;
+    top: -210px;
+    left: 100px;
+    max-height: 150px;
+}
+
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburguerimg{
+    position: relative;
+    margin-left: -6em;
+    filter: opacity(50%);
+}
+
+
+footer img:hover{
+    filter: drop-shadow(2px 2px 2px #214d49);
+ }
+
+
